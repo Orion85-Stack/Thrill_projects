@@ -8,14 +8,14 @@
     background-color: aquamarine;
 }
 
-
 /*End of Global Styles*/
+
 
 /*Start of Nav Section*/
 
 a {
-    align-items: center;
-    color: purple;
+    color: #000;
+    text-decoration: none;
 }
 
 /*End of Nav Section*/
