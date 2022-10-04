@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+/*Global styles*/
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+}
+
+
+/*End of Global Styles*/
+
+/*Start of Nav Section*/
+
+a {
+    align-items: center;
+    color: purple;
+}
+
+/*End of Nav Section*/
+
+/*Section 1*/
+.head-title {
+    height: 20vh;
+    width: 100vw;
+    padding: 10px;
+    margin-block: 10px;
+    text-align: center;
+    
+}
+
+.circle-1 {
+    border-radius: 50%;
+    background-color: lightcoral;
+}
+
+.circle-2 {
+    border-radius: 50%;
+    background-color: lightblue;
+}
+
+/*End of Section 1*/
