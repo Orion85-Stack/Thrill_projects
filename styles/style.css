@@ -13,9 +13,20 @@
 
 /*Start of Nav Section*/
 
+.page-nav {
+    color: #000;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
 a {
     color: #000;
     text-decoration: none;
+}
+
+a:hover {
+    color: blueviolet;
 }
 
 /*End of Nav Section*/
@@ -33,11 +44,17 @@ a {
 }
 
 .circle-1 {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
     border-radius: 50%;
     background-color: lightcoral;
 }
 
 .circle-2 {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
     border-radius: 50%;
     background-color: lightblue;
 }
