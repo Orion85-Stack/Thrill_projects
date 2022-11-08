@@ -60,3 +60,45 @@ a:hover {
 }
 
 /*End of Section 1*/
+
+/*Section 2 About */
+.section-about {
+    margin: 20px;
+}
+
+.about-par {
+    font-family: 'Times New Roman', Times, serif;
+    columns: 3;
+    text-align: justify;
+}
+
+/*End of Section 2 About */
+
+/* Section 3 - Services */
+.services-jobs {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.jobs {
+    flex-basis: 20%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.job-1 {
+    align-self: flex-start;
+}
+
+image {
+    height: 100px;
+    width: 100px;
+}
+/* End of Section 3 - jobs */
